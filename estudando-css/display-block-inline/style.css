@@ -1,0 +1,17 @@
+
+
+div{ /* por padrão div é block*/
+    height: 100px;
+     border: 1px solid red;
+    width: 10px;
+    display: inline;
+    
+  }
+  
+  span{ /* por padrão span é inline e é formatado horizontalmente*/
+    
+    width: 10px;
+    height: 100px;
+    border: 1px solid green;
+    display: block; 
+  }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <title>CSS Animation</title>
+
+    <style>
+        .ball {
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            position: relative;
+            border-radius: 100%;
+
+            animation-name: example;
+            animation-duration: 2s;
+            animation-delay: 5s;
+
+            /*animation-fill-mode: forwards;*/
+
+            /*animation-fill-mode: backwards; vai manter os valores da primeira chave antes da animação >> delay*/
+
+             /* quando terminar a animação vai ficar preso na última  chave*/
+            animation-fill-mode:both;
+
+        }
+
+        @keyframes example {
+             /*primeira chave*/
+            from{
+                left: 0px;
+                background-color:cyan;
+            }
+             /*última  chave*/
+            to{
+                left: calc(100% - 100px)
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="ball"></div>
+</body>
+
+</html>

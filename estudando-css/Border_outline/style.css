@@ -1,0 +1,16 @@
+* {margin: 0;}
+
+div , section {
+    width: 100px;
+    height: 100px;
+    margin: 20% auto;
+
+    border: 20px solid red;
+
+    /*  e necessário informar o estilo da borda  dotted  */
+    border-top: dotted green  4px;
+    border-bottom: none;
+
+    outline: yellow 4px solid;
+
+}

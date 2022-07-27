@@ -1,0 +1,10 @@
+
+/*
+  MANIPULANDO STRINGS E NÚMEROS
+
+    TRANSFORMAR UM NÚMERO QUEBRADO COM 2 CASAS DECIMAIS E TROCAR PONTO POR VÍRGULA.
+*/
+
+let number = 454.4587545646
+console.log(number.toFixed(2).replace("." , ","))
+

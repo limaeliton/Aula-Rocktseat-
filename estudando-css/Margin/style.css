@@ -1,0 +1,29 @@
+/* MARGIN SÓ É APLICADO EM ELEMENTO BLOCK*/
+
+* {margin: 0;}
+
+div ,section {
+
+border: 1px solid red;
+width: 100px;
+height: 100px;
+margin: 0 16px;
+
+/* MARGIN INLINE SOMA
+display: inline;*/
+
+margin: 10PX auto; 
+
+
+}
+
+
+div{
+    margin-bottom: 8px;
+}
+
+/* MARGIN COLAPSE NÃO E SOMADO*/
+
+section{
+    margin-top: 12px;
+}

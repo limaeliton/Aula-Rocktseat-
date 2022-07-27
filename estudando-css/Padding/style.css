@@ -1,0 +1,12 @@
+/*  tem o mesmo sentido do margin  */
+
+* {margin: 0; }
+
+div, section {
+border: 1px solid red;
+
+
+/*  PADDING É O ESPAÇO INTERNO  */
+padding: 10px  2em 8px 50%;
+
+}

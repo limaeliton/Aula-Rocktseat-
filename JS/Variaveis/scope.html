@@ -1,0 +1,51 @@
+
+<script>
+    // VAMOS INICIAR UM BLOCO
+    /*
+    {
+        // AQUI DENTRO É UM BLCO E POSSO COLOCAR QUALQUER CÓDIGO
+        // AQUI FECHAMOS O BLCO
+    }
+    */
+
+    // var é global e, também local
+    // hoisting >> elevação
+    
+    /*
+    var x //var é global
+    console.log('> existe x antes do bloco?', x)
+
+    {
+        var x = 0
+    }
+
+    console.log('> existe x depois do bloco?', x)
+    */
+
+    //-------------------------------------------------------------------------------------------------------
+    // CONST E LET SÃO LOCAIS E SÓ FUNCIONAM NO ESCOPO ONDE FIO CRIADA
+
+    /*
+    let y = 1
+
+    {
+         y =0
+        console.log('> existe Y ', y)
+    }
+
+    console.log('> existe y depois do bloco?', y)
+    */
+
+    //-------------------------------------------------------------------------------------------------
+
+    const y = 1  // é preciso criar uma nova constante em outro escopo.
+
+    {
+        const y = 0  // nova constante
+        console.log('> existe y' , y)
+
+    }
+
+    console.log('existe y depois do bloco?' , y)
+
+</script>

@@ -1,0 +1,23 @@
+<form action="">
+    <input type="url"
+    placeholder="http://example.com"
+    value="http://example.com"
+    readonly>
+    <button type="submit">Enviar</button>
+</form>
+
+
+<datalist id="urlsdata">
+<option>http://example.com.br</option>
+<option>https://example.com.br</option>
+</datalist>
+
+<form action="">
+    <input type="url"
+    placeholder="http://example.com.br"
+    pattern="*\.com\.br.*"
+    title="Somente domínios .com.br serão aceitos"
+    required
+    list="urlsdata">
+    <button type="submit">Enviar</button>
+</form>

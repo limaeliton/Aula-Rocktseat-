@@ -1,0 +1,23 @@
+p {
+
+    font-family: 'Times New Roman', sans-serif ;
+    font-weight: normal;
+   
+    font-family: 'Roboto Flex', sans-serif;
+
+    font-stretch: 50%;
+
+    word-spacing: 4px;
+
+    text-transform: capitalize;
+
+    text-decoration: underline solid red;
+
+    text-align: justify;
+
+    text-shadow: 1px 1px 8px red;
+
+
+
+    
+}
